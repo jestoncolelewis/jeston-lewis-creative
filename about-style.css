@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+}
+
+main {
+  background-color: #6a8ac1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  padding: 20px;
+  border: solid 1px #4d73b5;
+  background-color: #ffffff;
+  width: 400px;
+}
+
+h1 {
+  color: #000816;
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0;
+}
+
+p {
+  color: #000816;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 8px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-color: aliceblue;
+    border-width: thick;
+}
+
+.links {
+}
+
+a {
+  margin: 8px;
+}
