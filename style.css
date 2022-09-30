@@ -5,12 +5,25 @@ body {
   flex-direction: column;
 }
 
+header {
+  margin: 0 auto;
+}
+
 main {
   height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   
+}
+
+footer {
+  margin: 0 auto;
+  display: flex;
+}
+
+footer a {
+  padding: 10px;
 }
 
 #left {
