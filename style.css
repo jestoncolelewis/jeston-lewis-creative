@@ -13,7 +13,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  
+
 }
 
 footer {
@@ -82,6 +82,6 @@ p {
 }
 
 img {
-    width: 360px;
-    height: 460px;
+  width: 360px;
+  height: 460px;
 }
