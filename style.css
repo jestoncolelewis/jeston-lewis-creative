@@ -1,6 +1,8 @@
 /* General Sections */
 
 body {
+  color: #000816;
+  font-family: "Roboto", sans-serif;
   background-color: #e9e9ee;
   margin: 20px;
   display: flex;
@@ -56,30 +58,22 @@ footer a {
 /* Text */
 
 h1 {
-  color: #000816;
   font-size: 72px;
-  font-family: "Roboto", sans-serif;
   margin-bottom: 0;
 }
 
 h2 {
-  color: #000816;
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
   margin-bottom: 0;
 }
 
 h3 {
-  color: #000816;
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
   margin-bottom: 0;
 }
 
 h4 {
-  color: #000816;
   font-size: 22px;
-  font-family: "Roboto", sans-serif;
   margin-bottom: 5px;
 }
 
@@ -88,16 +82,12 @@ ul {
 }
 
 li {
-  color: #000816;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
   margin-bottom: 0;
 }
 
 p {
-  color: #000816;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
   margin-top: 8px;
 }
 
