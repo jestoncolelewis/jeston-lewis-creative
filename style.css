@@ -91,10 +91,33 @@ p {
   margin-top: 8px;
 }
 
+/* Table */
+
+th,
+td {
+  font-size: 18px;
+  text-align: start;
+  vertical-align: top;
+}
+
+table li {
+  font-size: 16px;
+  text-align: start;
+  vertical-align: top;
+}
+
+tr {
+  margin: 50px;
+}
+
 /* Special */
 
 #portfolio-image {
   width: 360px;
   height: 460px;
   margin-bottom: 25px;
+}
+
+#portfolio-projects>h2 {
+  margin-bottom: 15px;
 }
