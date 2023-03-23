@@ -19,10 +19,11 @@
     <body>
         <form>
             <input type="text" name="name" id="contact-name">
+            <input type="email" name="email" id="contact-email">
             <input type="tel" name="phone" id="contact-phone">
             <input type="text" name="subject" id="contact-subject">
             <input type="textarea" name="message" id="contact-message">
-            <button type="button" name="button" id="contact-button" onclick="send()"></button>
+            <button type="button" name="button" id="contact-button" onclick="send('contact-name', 'contact-email', 'contact-phone', 'contact-subject', 'contact-message')"></button>
         </form>
     </body>
 
