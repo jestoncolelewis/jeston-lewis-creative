@@ -26,6 +26,10 @@ footer {
   margin-top: 50px;
 }
 
+footer p {
+  text-align: center;
+}
+
 footer a {
   color: #000816;
   font-size: 18px;
@@ -35,25 +39,7 @@ footer a {
 
 /* Specific Sections */
 
-#portfolio-left {
-  padding: 10px;
-  margin-right: 25px;
-  display: flex;
-  flex-direction: column;
 
-}
-
-#portfolio-right {
-  margin-left: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-#portfolio-title {
-  text-align: center;
-  margin-bottom: 50px;
-}
 
 /* Text */
 
@@ -91,33 +77,16 @@ p {
   margin-top: 8px;
 }
 
-/* Table */
+/* Special */
 
-th,
-td {
-  font-size: 18px;
-  text-align: start;
-  vertical-align: top;
-}
 
-table li {
-  font-size: 16px;
-  text-align: start;
-  vertical-align: top;
-}
-
-tr {
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
   margin: 50px;
 }
 
-/* Special */
-
-#portfolio-image {
-  width: 360px;
-  height: 460px;
-  margin-bottom: 25px;
-}
-
-#portfolio-projects>h2 {
-  margin-bottom: 15px;
+input, textarea, button {
+  margin: 5px;
 }
