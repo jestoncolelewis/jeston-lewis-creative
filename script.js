@@ -1,17 +1,17 @@
 function send(n, e, p, s, m) {
     const url = 'https://0cxjlr27zj.execute-api.us-west-2.amazonaws.com/items'
-    const usrname = document.getElementById(n)
-    const usremail = document.getElementById(e)
-    const usrphone = document.getElementById(p)
-    const usrsubject = document.getElementById(s)
-    const usrmessage = document.getElementById(m)
+    const usrname = document.getElementById(n).value;
+    const usremail = document.getElementById(e).value;
+    const usrphone = document.getElementById(p).value;
+    const usrsubject = document.getElementById(s).value;
+    const usrmessage = document.getElementById(m).value;
     const data = {
         name: usrname,
         email: usremail,
         phone: usrphone,
         subject: usrsubject,
         message: usrmessage
-    }
+    };
 
     fetch(
         url,
