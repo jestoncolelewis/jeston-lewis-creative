@@ -1,5 +1,5 @@
 function send(n, e, p, s, m) {
-    const url = 'https://0cxjlr27zj.execute-api.us-west-2.amazonaws.com/items'
+    const url = 'https://o8kdvuahw4.execute-api.us-west-2.amazonaws.com/emailTest'
     const usrname = document.getElementById(n).value;
     const usremail = document.getElementById(e).value;
     const usrphone = document.getElementById(p).value;
