@@ -1,13 +1,17 @@
 import boto3
+import json
 
 ses = boto3.client('sesv2')
 
 def lambda_handler(event, context):
-    replyto = event['body']['email']
+    body = event['body']
+    print(body)
+    body = json.loads(body)
+    replyto = body['email']
     print(replyto)
-    subject = event['body']['subject']
+    subject = body['subject']
     print(subject)
-    message = 'Name: ' + event['body']['name'] + '\n' + 'Phone: ' + event['body']['phone'] + '\n' + 'Message: ' + event['body']['message']
+    message = 'Name: ' + body['name'] + '\n' + 'Phone: ' + body['phone'] + '\n' + 'Message: ' + body['message']
     print(message)
     response = ses.send_email(
         FromEmailAddress = 'web@jeston.click',
