@@ -10,8 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="./script.js" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 <body>
+    <script>
+        function onSubmit(token) {
+          document.getElementById("contact-button").submit();
+        }
+      </script>
     <header>
         <h1>Contact Me</h1>
     </header>
@@ -23,7 +29,14 @@
             <input type="tel" name="phone" id="contact-phone" placeholder="650-555-6328">
             <input type="text" name="subject" id="contact-subject" placeholder="My Awesome Project">
             <textarea type="textarea" name="message" id="contact-message" placeholder="What do you need help with?" rows="5" cols="10"></textarea>
-            <button type="button" name="button" id="contact-button" onclick="send('contact-name', 'contact-email', 'contact-phone', 'contact-subject', 'contact-message')">Send</button>
+            <button type="button" 
+                    name="button" 
+                    id="contact-button" 
+                    onclick="send('contact-name', 'contact-email', 'contact-phone', 'contact-subject', 'contact-message')"
+                    class="g-recaptcha"
+                    data-sitekey="6LcdezglAAAAAG1nLPr0fxhBOu6NBPR9Bt-0AHK5"
+                    data-callback='onSubmit' 
+                    data-action='submit'>Send</button>
         </form>
     </main>
 
